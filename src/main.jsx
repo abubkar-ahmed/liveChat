@@ -6,11 +6,11 @@ import './styles/index.css'
 import { AuthProvider } from './context/AuthProvider';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <HashRouter>
     <AuthProvider>
       <App />
     </AuthProvider>
     </HashRouter>
-  // </React.StrictMode>
+  </React.StrictMode>
 )
