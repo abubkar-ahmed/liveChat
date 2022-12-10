@@ -23,10 +23,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: fill-available;
   min-height: -webkit-fill-available;
 }
 
 html {
+  height: -moz-available;
+  height: fill-available;
   height: -webkit-fill-available;
 }
 
