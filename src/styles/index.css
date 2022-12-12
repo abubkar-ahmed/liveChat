@@ -978,61 +978,6 @@ header h1 {
 .chat .friend-container .friend-nav .controls i:hover {
   color: red;
 }
-.chat .friend-container .friend-nav .controls .options {
-  background-color: rgba(0, 0, 0, 0.6392156863);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 150;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-}
-.chat .friend-container .friend-nav .controls .options .options-container {
-  background-color: white;
-  width: 350px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  gap: 1rem;
-}
-.chat .friend-container .friend-nav .controls .options .options-container p {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 16px;
-  line-height: 20px;
-  color: #324152;
-}
-.chat .friend-container .friend-nav .controls .options .options-container .option-buttons {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-}
-.chat .friend-container .friend-nav .controls .options .options-container .option-buttons button {
-  background-color: #ed6468;
-  border: none;
-  border-radius: 0.5rem;
-  color: #fff;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 700;
-  padding: 0.9rem 0;
-  transition: all 0.4s ease;
-  width: 48%;
-}
-.chat .friend-container .friend-nav .controls .options .options-container .option-buttons button.cancel {
-  background-color: #67727e;
-}
 .chat .friend-container form {
   width: 100%;
   height: 10vh;
@@ -1253,6 +1198,61 @@ header h1 {
   border-radius: 50%;
   color: white;
   font-weight: 300;
+}
+.chat .options {
+  background-color: rgba(0, 0, 0, 0.6392156863);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 150;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.chat .options .options-container {
+  background-color: white;
+  width: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.chat .options .options-container p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 20px;
+  color: #324152;
+}
+.chat .options .options-container .option-buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.chat .options .options-container .option-buttons button {
+  background-color: #ed6468;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0.9rem 0;
+  transition: all 0.4s ease;
+  width: 48%;
+}
+.chat .options .options-container .option-buttons button.cancel {
+  background-color: #67727e;
 }
 
 @media (min-width: 320px) and (max-width: 668px) {

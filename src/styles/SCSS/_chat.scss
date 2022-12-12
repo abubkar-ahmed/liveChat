@@ -81,58 +81,6 @@
                     }
 
                 }
-                .options{
-                    background-color: #000000a3;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    z-index: 150;
-                    backdrop-filter: blur(5px);
-                    .options-container{
-                        background-color: white;
-                        width: 350px;
-                        height: fit-content;
-                        border-radius: 0.5rem;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        padding: 2rem;
-                        gap: 1rem;
-                        p{
-                            text-align: center;
-                            text-transform: capitalize;
-                            font-size: 16px;
-                            line-height: 20px;
-                            color: #324152;
-                        }
-                        .option-buttons{
-                            display: flex;
-                            gap: 1rem;
-                            width: 100%;
-                            button{
-                                background-color: #ed6468;
-                                border: none;
-                                border-radius: 0.5rem;
-                                color: #fff;
-                                cursor: pointer;
-                                font-size: 15px;
-                                font-weight: 700;
-                                padding: 0.9rem 0;
-                                transition: all .4s ease;
-                                width: 48%;
-                                &.cancel{
-                                    background-color: #67727e;  
-                                }
-                            }
-                        }
-                    }
-                }
             }
         }
         form {
@@ -356,6 +304,58 @@
                 border-radius: 50%;
                 color: white;
                 font-weight: 300;
+            }
+        }
+    }
+    .options{
+        background-color: #000000a3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 150;
+        backdrop-filter: blur(5px);
+        .options-container{
+            background-color: white;
+            width: 350px;
+            height: fit-content;
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            gap: 1rem;
+            p{
+                text-align: center;
+                text-transform: capitalize;
+                font-size: 16px;
+                line-height: 20px;
+                color: #324152;
+            }
+            .option-buttons{
+                display: flex;
+                gap: 1rem;
+                width: 100%;
+                button{
+                    background-color: #ed6468;
+                    border: none;
+                    border-radius: 0.5rem;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-weight: 700;
+                    padding: 0.9rem 0;
+                    transition: all .4s ease;
+                    width: 48%;
+                    &.cancel{
+                        background-color: #67727e;  
+                    }
+                }
             }
         }
     }

@@ -433,18 +433,7 @@ function Chat(props) {
               <i className="fa-solid fa-trash-can"
                 onClick={() => setShowControls(prev => !prev)}
               ></i>
-              {showControls &&               
-              <div className='options'>
-                <div className='options-container'>
-                  <p>Are you sure you want to delete this chat with @{sendTo.username} </p>
-                  <div className="option-buttons">
-                    <button onClick={clearChat}>Yes, Delete</button>
-                    <button className='cancel' onClick={() => setShowControls(prev => !prev)}>No, Cancel</button>
-                  </div>
-                </div>
 
-              </div>
-              }
             </div>
           </div>
           <div className='chat-container' >
@@ -482,6 +471,18 @@ function Chat(props) {
       <div className='img-preview' onClick={() => setShowImg(prev => !prev)}>
         <img src={sendTo.image ? sendTo.image : defualImg} alt='image' />
       </div>}
+      {showControls &&               
+        <div className='options'>
+          <div className='options-container'>
+            <p>Are you sure you want to delete this chat with @{sendTo.username} </p>
+            <div className="option-buttons">
+              <button onClick={clearChat}>Yes, Delete</button>
+              <button className='cancel' onClick={() => setShowControls(prev => !prev)}>No, Cancel</button>
+            </div>
+          </div>
+
+        </div>
+      }
     </main>
   )
 }
