@@ -372,6 +372,9 @@
                 padding: 0;
                 border-bottom: 2px solid $color-3;
                 height: 80px;
+                position: absolute;
+                top: 0;
+                left: 0;
                 .container-1{
                     gap: 0.5rem;
                     div{
@@ -403,6 +406,9 @@
             .chat-container{
                 padding: 1rem;
                 height: calc(100% - 160px);
+                position: absolute;
+                top: 80px;
+                left: 0;
                 .from-me , .recived-msg{
                     max-width: 100%;
                 }
@@ -410,6 +416,9 @@
             form {
                 padding: 0;
                 height: 80px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
                 input{
                     height: 100%;
                     padding: 0rem 10px;
