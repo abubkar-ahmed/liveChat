@@ -406,11 +406,11 @@
             }
             .chat-container{
                 padding: 1rem;
-                height: calc(100% - 160px);
+                height: calc(100% - 300px);
                 position: fixed;
                 top: calc(10vh + 80px);
                 left: 0;
-                padding-bottom: 80px;
+                // padding-bottom: 80px;
                 .from-me , .recived-msg{
                     max-width: 100%;
                 }
