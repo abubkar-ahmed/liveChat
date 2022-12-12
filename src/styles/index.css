@@ -1257,11 +1257,12 @@ header h1 {
 
 @media (min-width: 320px) and (max-width: 668px) {
   .chat {
-    height: 80vh;
+    height: calc(100% - 20vh);
   }
   .chat .friend-container {
     height: 100%;
     overflow-y: unset;
+    max-height: 80vh;
   }
   .chat .friend-container .friend-nav {
     gap: 0.5rem;
