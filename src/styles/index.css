@@ -1272,6 +1272,7 @@ header h1 {
     position: fixed;
     top: 10vh;
     left: 0;
+    z-index: 5;
   }
   .chat .friend-container .friend-nav .container-1 {
     gap: 0.5rem;
@@ -1306,6 +1307,7 @@ header h1 {
     position: fixed;
     top: calc(10vh + 80px);
     left: 0;
+    z-index: 5;
   }
   .chat .friend-container .chat-container .from-me, .chat .friend-container .chat-container .recived-msg {
     max-width: 100%;
