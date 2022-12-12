@@ -1256,6 +1256,9 @@ header h1 {
 }
 
 @media (min-width: 320px) and (max-width: 668px) {
+  .chat {
+    height: calc(90vh - 80px);
+  }
   .chat .friend-container {
     height: 100%;
   }

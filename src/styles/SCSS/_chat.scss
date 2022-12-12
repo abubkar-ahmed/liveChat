@@ -363,8 +363,8 @@
 
 @media (min-width : 320px) and (max-width:668px) {
     .chat{
+        height: calc(100vh - 10vh - 80px);
         .friend-container{
-            // border-bottom: 1px solid $color-3;
             height: 100%;
             .friend-nav{
                 gap: 0.5rem;
