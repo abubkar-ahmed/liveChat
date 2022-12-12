@@ -1267,6 +1267,7 @@ header h1 {
     gap: 0.5rem;
     padding: 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2392156863);
+    height: 80px;
   }
   .chat .friend-container .friend-nav .container-1 {
     gap: 0.5rem;
@@ -1297,12 +1298,14 @@ header h1 {
   }
   .chat .friend-container .chat-container {
     padding: 1rem;
+    height: calc(100% - 160px);
   }
   .chat .friend-container .chat-container .from-me, .chat .friend-container .chat-container .recived-msg {
     max-width: 100%;
   }
   .chat .friend-container form {
     padding: 0;
+    height: 80px;
   }
   .chat .friend-container form input {
     height: 100%;
