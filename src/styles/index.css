@@ -390,6 +390,7 @@ header h1 {
     height: 100%;
     margin: 0;
     border-radius: 0;
+    overflow-y: scroll;
     padding-top: 2rem 1rem;
     justify-content: unset;
     align-items: center;
