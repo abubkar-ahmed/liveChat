@@ -233,6 +233,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2392156863);
   }
   .nav ul {
     display: unset;
@@ -388,9 +389,7 @@ header h1 {
     width: 100%;
     height: 100%;
     margin: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2392156863);
     border-radius: 0;
-    overflow-y: scroll;
     padding-top: 2rem 1rem;
     justify-content: unset;
     align-items: center;
@@ -773,7 +772,6 @@ header h1 {
     width: 100%;
     border-right: 0;
     padding: 2rem 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2392156863);
     padding-bottom: 0;
   }
   .search .friend-container {
@@ -1174,7 +1172,7 @@ header h1 {
   background-color: rgba(0, 0, 0, 0.6117647059);
   width: 100%;
   height: 100%;
-  z-index: 3;
+  z-index: 101;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1258,9 +1256,6 @@ header h1 {
 }
 
 @media (min-width: 320px) and (max-width: 668px) {
-  .chat .friend-container {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2392156863);
-  }
   .chat .friend-container .friend-nav {
     gap: 0.5rem;
     padding: 0;

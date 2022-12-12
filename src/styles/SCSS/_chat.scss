@@ -275,7 +275,7 @@
         background-color: #0000009c;
         width: 100%;
         height: 100%;
-        z-index: 3;
+        z-index: 101;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -364,7 +364,7 @@
 @media (min-width : 320px) and (max-width:668px) {
     .chat{
         .friend-container{
-            border-bottom: 1px solid $color-3;
+            // border-bottom: 1px solid $color-3;
             .friend-nav{
                 gap: 0.5rem;
                 padding: 0;
