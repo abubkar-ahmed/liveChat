@@ -89,6 +89,7 @@ function Search() {
   }
 
   React.useEffect(() => {
+    setNotFound('');
     if(inputs.user !== '' && searchedList.length === 0){
       setNotFound(`No Users Found For "${inputs.user}"`);
     }

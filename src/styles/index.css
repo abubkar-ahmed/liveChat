@@ -142,7 +142,7 @@ header h1 {
   width: 100px;
   max-height: 90vh;
   padding: 2rem 0;
-  background-color: rgba(233, 227, 227, 0.368627451);
+  background-color: #e9e3e3;
 }
 .nav ul {
   list-style: none;
@@ -1256,6 +1256,9 @@ header h1 {
 }
 
 @media (min-width: 320px) and (max-width: 668px) {
+  .chat .friend-container {
+    height: 100%;
+  }
   .chat .friend-container .friend-nav {
     gap: 0.5rem;
     padding: 0;
